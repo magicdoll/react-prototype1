@@ -11,4 +11,4 @@ Installation
 
 
 
-Cloude Vercel :: https://react-prototype1.vercel.app
+Vercel Cloud :: https://react-prototype1.vercel.app
