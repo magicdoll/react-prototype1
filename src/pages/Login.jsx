@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
-import { setPageTitle, setUserInfo } from '../store/storeReducers'
+import { setUserInfo } from '../store/storeReducers'
 import bannersilkspan from '../assets/images/SILKSPANINSURANCE-V1.png'
 // import { fnCallAPILogin } from '../api/app/APILogin'
 
@@ -13,10 +13,6 @@ const Login = (props) => {
   const [password, setPassword] = useState('')
   const [msgalert, setMsgalert] = useState(`${systemname.toUpperCase()}`)
   const [colorerror, setColorerror] = useState('text-gray-500')
-
-  useEffect(() => {
-    dispatch(setPageTitle('Login'))
-  })
 
   const fnSetNotify = (msg, cls) => {
     setMsgalert(msg)
@@ -52,7 +48,6 @@ const Login = (props) => {
       }
     }
   }
-
 
   return (
     <div className="py-36 bg-white">

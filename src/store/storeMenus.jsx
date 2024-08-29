@@ -4,8 +4,12 @@ const listMenus = [
         icon: '',
         submenu: [
             {
-                text: 'Home',
+                text: 'Introduce',
                 to: '/',
+            },
+            {
+                text: 'Git Clone',
+                to: '/gitclone',
             },
             {
                 text: 'Installation',
@@ -14,70 +18,44 @@ const listMenus = [
         ],
     },
     {
-        topic: 'Flexbox & Grid',
+        topic: 'React Components',
         icon: '',
         submenu: [
             {
-                text: 'Flex Basis',
-                to: '/',
+                text: 'Component',
+                to: '/component',
             },
             {
-                text: 'Flex Direction',
-                to: '/',
-            },
-            {
-                text: 'Flex',
-                to: '/',
-            },
-            {
-                text: 'Order',
-                to: '/',
-            },
-            {
-                text: 'Grid Columns',
-                to: '/',
-            },
-            {
-                text: 'Grid Column Start/End',
-                to: '/',
-            },
-            {
-                text: 'Grid Rows',
-                to: '/',
-            },
-            {
-                text: 'Grid Row Start/End',
-                to: '/',
-            },
-            {
-                text: 'Grid Auto Flow',
-                to: '/',
-            },
-            {
-                text: 'Gap',
-                to: '/',
-            },
-            {
-                text: 'Justify Content',
-                to: '/',
+                text: 'Props',
+                to: '/componentsprops',
             },
         ],
     },
     {
-        topic: 'Spacing',
+        topic: 'React Reduxjs/Toolkit',
         icon: '',
         submenu: [
             {
-                text: 'Padding',
-                to: '/',
+                text: 'State',
+                to: '/reduxjsstate',
             },
             {
-                text: 'Margin',
-                to: '/',
+                text: 'Reducer',
+                to: '/reduxjsreducer',
+            },
+        ],
+    },
+    {
+        topic: 'React Router',
+        icon: '',
+        submenu: [
+            {
+                text: 'Router',
+                to: '/reactrouter',
             },
             {
-                text: 'Space Between',
-                to: '/',
+                text: 'Navigate',
+                to: '/reactnavigate',
             },
         ],
     },

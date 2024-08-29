@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { NavLink, useNavigate } from 'react-router-dom'
-import { setPageTitle, setUserInfo } from '../../store/storeReducers'
+import { setUserInfo } from '../../store/storeReducers'
 
 const Navbar = () => {
   const navigate = useNavigate()
@@ -10,7 +10,6 @@ const Navbar = () => {
   const systemname = useSelector((state) => state.systemname)
 
   const fnOnClickLogout = () => {
-    dispatch(setPageTitle('Login'))
     dispatch(setUserInfo(null))
     navigate('/login', { replace: true })
   }

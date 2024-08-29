@@ -12,7 +12,7 @@ const initialState = {
         , permissions: []
     }
     , systemname: 'Prototype'
-    , textmenufocus: 'Login'
+    , textmenufocus: 'login'
     , isOpenSidebar: false
     , listMenus: listMenus
 }
@@ -37,9 +37,22 @@ const storeConfig = createSlice({
             }
             
         },
-        setPageTitle(state, { payload }) {
-            document.title = `${state.systemname} | ${payload}`
-            state.textmenufocus = payload
+        setPageLocaltion(state, { payload }) {
+            let jsitem  = []
+            if (payload.toLowerCase() == '/login') {
+                document.title = document.title = `${state.systemname} | Login`
+                state.textmenufocus = 'login'
+            }
+            else {
+                for (const item of state.listMenus) {
+                    jsitem = item.submenu.filter((items) => items.to.toLowerCase() == payload.toLowerCase())
+                    if (jsitem.length) {
+                        document.title = `${state.systemname} | ${jsitem[0].text}`
+                        state.textmenufocus = `${item.topic} [${jsitem[0].text}]`
+                        break
+                    }
+                }
+            }
         },
         setToggleSidebar(state, { payload }) {
             state.isOpenSidebar = (payload ? payload : !state.isOpenSidebar)
@@ -47,7 +60,7 @@ const storeConfig = createSlice({
     }
 })
 
-export const { setUserInfo, setPageTitle, setToggleSidebar } = storeConfig.actions
+export const { setUserInfo, setPageLocaltion, setToggleSidebar } = storeConfig.actions
 export default configureStore({
     reducer: storeConfig.reducer
 })
