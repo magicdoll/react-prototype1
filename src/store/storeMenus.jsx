@@ -1,12 +1,18 @@
 const listMenus = [
     {
-        topic: 'Getting Started',
+        topic: 'Silkspan-Prototype',
         icon: '',
         submenu: [
             {
                 text: 'Introduce',
                 to: '/',
             },
+        ],
+    },
+    {
+        topic: 'React Getting Started',
+        icon: '',
+        submenu: [
             {
                 text: 'Git Clone',
                 to: '/gitclone',
@@ -14,6 +20,16 @@ const listMenus = [
             {
                 text: 'Installation',
                 to: '/installation',
+            },
+        ],
+    },
+    {
+        topic: 'React Template Prototype',
+        icon: '',
+        submenu: [
+            {
+                text: 'Template Guide',
+                to: '/reacttemplateguide',
             },
         ],
     },
@@ -59,6 +75,26 @@ const listMenus = [
             },
         ],
     },
+    {
+        topic: 'React Axios',
+        icon: '',
+        submenu: [
+            {
+                text: 'Call API',
+                to: '/reactrouter',
+            },
+        ],
+    },
+    {
+        topic: 'NodeJS Getting Started',
+        icon: '',
+        submenu: [
+            {
+                text: 'Installation',
+                to: '/nodejsinstallation',
+            },
+        ],
+    }
 ]
 
 export { listMenus }

@@ -1,8 +1,8 @@
 import { lazy } from "react"
 const Login = lazy(() => import('../pages/Login'))
-const Index = lazy(() => import('../pages/menus/gettingstarteds/Index'))
-const GitClone = lazy(() => import('../pages/menus/gettingstarteds/GitClone'))
-const Installation = lazy(() => import('../pages/menus/gettingstarteds/Installation'))
+const Index = lazy(() => import('../pages/menus/Index'))
+const GitClone = lazy(() => import('../pages/menus/reactgettingstarteds/GitClone'))
+const Installation = lazy(() => import('../pages/menus/reactgettingstarteds/Installation'))
 const Component = lazy(() => import('../pages/menus/reactcomponents/Component'))
 const ComponentsProps = lazy(() => import('../pages/menus/reactcomponents/ComponentsProps'))
 const ReduxjsState = lazy(() => import('../pages/menus/reactreduxjs/ReduxjsState'))

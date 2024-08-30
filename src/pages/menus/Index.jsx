@@ -10,7 +10,7 @@ const Index = () => {
             <p className="text-5xl font-bold text-[#1d7181]"> SILKSPAN - React Prototype </p>
             <p className="text-3xl font-bold text-gray-500">ระบบที่จะค่อยช่วยให้คำแนะนำเบื้องต้นเกี่ยวกับ</p>
             <p className="text-4xl font-bold text-gray-500">
-              <span className={'text-sky-500 underline decoration-red-600'}>React[JSX]</span> + <span className={'text-blue-600 underline decoration-red-600'}>Tailwind[CSS]</span> + <span className={'text-green-600 underline decoration-red-600'}>Node.JS</span>
+              (<span className={'text-sky-500'}>React[JSX]</span> + <span className={'text-pink-500'}>Tailwind[CSS]</span>) & <span className={'text-green-600 underline decoration-red-500'}>Node.JS</span>
             </p>
 
             <p></p>
