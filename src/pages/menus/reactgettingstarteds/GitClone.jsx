@@ -6,70 +6,69 @@ const GitClone = (props) => {
   const [txtstep3, setTxtstep3] = useState('npm install')
   const [txtstep4, setTxtstep4] = useState('code .')
   const [txtstep5, setTxtstep5] = useState('npm start')
-  const [open, setOpen] = useState(false)
   return (
     <div className='py-1'>
       <div className="grid grid-cols-1">
         <div className="block w-full bg-white rounded-lg p-2 grid place-items-center">
           
-          <div class="w-2/4 bg-white border-gray-200 border dark:border-gray-700 shadow rounded-lg p-5">
-            <h2 class="text-lg font-semibold text-gray-900 mb-2">Prototype Clone with Github</h2>
-            <p class="text-gray-500 mb-6">ขั้นตอนการ Clone โค้ดทั้งหมดของ Prototype นี้ลงมาที่เครื่องตัวเองด้วย <a href="https://www.github.com" target="_blank" class="text-blue-700 dark:text-blue-500 underline hover:no-underline font-medium">Github</a>.</p>
+          <div className="w-2/4 bg-white border-gray-200 border dark:border-gray-700 shadow rounded-lg p-5">
+            <h2 className="text-lg font-semibold text-gray-900 mb-2">Prototype Clone with Github</h2>
+            <p className="text-gray-500 mb-6">ขั้นตอนการ Clone โค้ดทั้งหมดของ Prototype นี้ลงมาที่เครื่องตัวเองด้วย <a href="https://www.github.com" target="_blank" class="text-blue-700 dark:text-blue-500 underline hover:no-underline font-medium">Github</a>.</p>
             
-            <label for="step1-id" class="text-sm font-medium text-gray-900 block">Step 1 : Git Clone </label>
-            <div class="relative mb-4">
-              <input id="step1-id" type="text" class="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={txtstep1} disabled readonly />
-              <button onClick={() => navigator.clipboard.writeText(`${txtstep1}`)} class="absolute end-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg p-2 inline-flex items-center justify-center">
+            <label for="step1-id" className="text-sm font-medium text-gray-900 block">ขั้นตอนที่ 1 : Git Clone </label>
+            <div className="relative mb-4">
+              <input id="step1-id" type="text" className="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={txtstep1} disabled readonly />
+              <button onClick={() => navigator.clipboard.writeText(`${txtstep1}`)} className="absolute end-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg p-2 inline-flex items-center justify-center">
                 <span id="default-icon-step1-id">
-                  <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                  <svg className="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
                     <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z"/>
                   </svg>
                 </span>
               </button>
             </div>
 
-            <label for="step2-id" class="text-sm font-medium text-gray-900 block">Step 2 : Move to folder project </label>
-            <div class="relative mb-4">
-              <input id="step2-id" type="text" class="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={txtstep2} disabled readonly />
-              <button onClick={() => navigator.clipboard.writeText(`${txtstep2}`)} class="absolute end-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg p-2 inline-flex items-center justify-center">
+            <label for="step2-id" className="text-sm font-medium text-gray-900 block">ขั้นตอนที่ 2 : Move to folder project </label>
+            <div className="relative mb-4">
+              <input id="step2-id" type="text" className="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={txtstep2} disabled readonly />
+              <button onClick={() => navigator.clipboard.writeText(`${txtstep2}`)} className="absolute end-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg p-2 inline-flex items-center justify-center">
                 <span id="default-icon-step2-id">
-                  <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                  <svg className="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
                     <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z"/>
                   </svg>
                 </span>
               </button>
             </div>
 
-            <label for="step3-id" class="text-sm font-medium text-gray-900 block">Step 3 : Install node module package </label>
-            <div class="relative mb-4">
-              <input id="step3-id" type="text" class="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={txtstep3} disabled readonly />
-              <button onClick={() => navigator.clipboard.writeText(`${txtstep3}`)} class="absolute end-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg p-2 inline-flex items-center justify-center">
+            <label for="step3-id" className="text-sm font-medium text-gray-900 block">ขั้นตอนที่ 3 : Install node module package </label>
+            <div className="relative mb-4">
+              <input id="step3-id" type="text" className="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={txtstep3} disabled readonly />
+              <button onClick={() => navigator.clipboard.writeText(`${txtstep3}`)} className="absolute end-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg p-2 inline-flex items-center justify-center">
                 <span id="default-icon-step3-id">
-                  <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                  <svg className="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
                     <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z"/>
                   </svg>
                 </span>
               </button>
             </div>
 
-            <label for="step4-id" class="text-sm font-medium text-gray-900 block">Step 4 : Open project with Visual Studio Code </label>
-            <div class="relative mb-4">
-              <input id="step4-id" type="text" class="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={txtstep4} disabled readonly />
-              <button onClick={() => navigator.clipboard.writeText(`${txtstep4}`)} class="absolute end-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg p-2 inline-flex items-center justify-center">
+            <label for="step4-id" className="text-sm font-medium text-gray-900 block">ขั้นตอนที่ 4 : Open project with Visual Studio Code </label>
+            <div className="relative mb-4">
+              <input id="step4-id" type="text" className="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={txtstep4} disabled readonly />
+              <button onClick={() => navigator.clipboard.writeText(`${txtstep4}`)} className="absolute end-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg p-2 inline-flex items-center justify-center">
                 <span id="default-icon-step4-id">
-                  <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                  <svg className="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
                     <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z"/>
                   </svg>
                 </span>
               </button>
             </div>
 
-            <label for="step5-id" class="text-sm font-medium text-gray-900 block">Step 5 : Run start project </label>
+            <label for="step5-id" className="text-sm font-medium text-gray-900 block">ขั้นตอนที่ 5 : Run start project </label>
             <div class="relative mb-4">
-              <input id="step5-id" type="text" class="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={txtstep5} disabled readonly />
-              <button onClick={() => navigator.clipboard.writeText(`${txtstep5}`)} class="absolute end-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg p-2 inline-flex items-center justify-center">
+              <input id="step5-id" type="text" className="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={txtstep5} disabled readonly />
+              <button onClick={() => navigator.clipboard.writeText(`${txtstep5}`)} className="absolute end-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg p-2 inline-flex items-center justify-center">
                 <span id="default-icon-step5-id">
-                  <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                  <svg className="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
                     <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z"/>
                   </svg>
                 </span>
