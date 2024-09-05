@@ -26,7 +26,7 @@ const ReactTempleteGuide = (props) => {
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     App.jsx จะเป็น Component ที่คุมทุกไฟล์ในระบบนี้ไว้
-                    <ul class="list-inside list-disc  pl-6">
+                    <ul className="list-inside list-disc  pl-6">
                       <li>เอาไว้กำหนดค่าต่างๆให้กับทุกหน้าได้</li>
                       <li>เอาไว้ check login ของทุกๆหน้าได้</li>
                       <li>เอาไว้ check permission ของทุกๆหน้าได้</li>
@@ -38,10 +38,10 @@ const ReactTempleteGuide = (props) => {
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
-                      <div class="grid grid-rows-3 grid-flow-col gap-1 text-center p-2 rounded border border-dashed border-white">
-                        <div class="col-span-3 text-gray-600">Navbar.jsx</div>
-                        <div class="row-span-2 text-gray-600">Sidebar.jsx</div>
-                        <div class="row-span-2 col-span-2 text-gray-600">Index.jsx</div>
+                      <div className="grid grid-rows-3 grid-flow-col gap-1 text-center p-2 rounded border border-dashed border-white">
+                        <div className="col-span-3 text-gray-600">Navbar.jsx</div>
+                        <div className="row-span-2 text-gray-600">Sidebar.jsx</div>
+                        <div className="row-span-2 col-span-2 text-gray-600">Index.jsx</div>
                       </div>
 
                     </div>
@@ -57,7 +57,7 @@ const ReactTempleteGuide = (props) => {
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     Navbar.jsx เป็น Component แยกออกจากตัวอื่นๆ
-                    <ul class="list-inside list-disc  pl-6">
+                    <ul className="list-inside list-disc  pl-6">
                       <li>ทำหน้าที่เป็น Topbar Menu ด้านบน Page</li>
                     </ul>
                   </span>
@@ -67,10 +67,10 @@ const ReactTempleteGuide = (props) => {
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
-                      <div class="grid grid-rows-3 grid-flow-col gap-1 text-center p-2">
-                        <div class="col-span-3 rounded border border-dashed border-amber-300">Navbar.jsx</div>
-                        <div class="row-span-2 text-gray-600">Sidebar.jsx</div>
-                        <div class="row-span-2 col-span-2 text-gray-600">Index.jsx</div>
+                      <div className="grid grid-rows-3 grid-flow-col gap-1 text-center p-2">
+                        <div className="col-span-3 rounded border border-dashed border-amber-300">Navbar.jsx</div>
+                        <div className="row-span-2 text-gray-600">Sidebar.jsx</div>
+                        <div className="row-span-2 col-span-2 text-gray-600">Index.jsx</div>
                       </div>
 
                     </div>
@@ -86,7 +86,7 @@ const ReactTempleteGuide = (props) => {
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     ListMenu.jsx เป็น Component แยกออกจากตัวอื่นๆ
-                    <ul class="list-inside list-disc  pl-6">
+                    <ul className="list-inside list-disc  pl-6">
                       <li>ทำหน้าที่สร้างเมนู</li>
                       <li>สร้างเมนูเป็นกลุ่มๆ</li>
                     </ul>
@@ -97,14 +97,14 @@ const ReactTempleteGuide = (props) => {
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
-                      <div class="grid grid-rows-3 grid-flow-col gap-1 text-center p-2">
-                        <div class="col-span-3 text-gray-600">Navbar.jsx</div>
-                        <div class="row-span-2">
-                          <div class="grid grid-rows-1 grid-flow-col gap-1 text-center p-1">
-                            <div class="rounded border border-dashed border-blue-400">ListMenu.jsx</div>
+                      <div className="grid grid-rows-3 grid-flow-col gap-1 text-center p-2">
+                        <div className="col-span-3 text-gray-600">Navbar.jsx</div>
+                        <div className="row-span-2">
+                          <div className="grid grid-rows-1 grid-flow-col gap-1 text-center p-1">
+                            <div className="rounded border border-dashed border-blue-400">ListMenu.jsx</div>
                           </div>
                         </div>
-                        <div class="row-span-2 col-span-2 text-gray-600">Index.jsx</div>
+                        <div className="row-span-2 col-span-2 text-gray-600">Index.jsx</div>
                       </div>
 
                     </div>
@@ -120,7 +120,7 @@ const ReactTempleteGuide = (props) => {
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     Sidebar.jsx เป็น Component แยกออกจากตัวอื่นๆ
-                    <ul class="list-inside list-disc  pl-6">
+                    <ul className="list-inside list-disc  pl-6">
                       <li>ทำหน้าที่เป็น Menubar ด้านข้างซ้ายของ Page</li>
                       <li>มีการเรียกใช้ Component : ListMenu.jsx เพื่อสร้างเมนูต่างๆขึ้นมา</li>
                     </ul>
@@ -131,16 +131,16 @@ const ReactTempleteGuide = (props) => {
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
-                      <div class="grid grid-rows-3 grid-flow-col gap-1 text-center p-2">
-                        <div class="col-span-3 text-gray-600">Navbar.jsx</div>
-                        <div class="row-span-2 rounded border border-dashed border-lime-300">
+                      <div className="grid grid-rows-3 grid-flow-col gap-1 text-center p-2">
+                        <div className="col-span-3 text-gray-600">Navbar.jsx</div>
+                        <div className="row-span-2 rounded border border-dashed border-lime-300">
                           Sidebar.jsx
-                          <div class="grid grid-rows-2 grid-flow-col gap-1 text-center p-1">
-                            <div class="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
-                            <div class="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
+                          <div className="grid grid-rows-2 grid-flow-col gap-1 text-center p-1">
+                            <div className="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
+                            <div className="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
                           </div>
                         </div>
-                        <div class="row-span-2 col-span-2 text-gray-600">Index.jsx</div>
+                        <div className="row-span-2 col-span-2 text-gray-600">Index.jsx</div>
                       </div>
 
                     </div>
@@ -156,7 +156,7 @@ const ReactTempleteGuide = (props) => {
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     BlankPage.jsx เป็น Component หลักที่จะเอาไว้ให้ Page อื่นๆที่สร้างใหม่มาเกาะได้โดย
-                    <ul class="list-inside list-disc  pl-6">
+                    <ul className="list-inside list-disc  pl-6">
                       <li>จะเป็น Component เปล่าๆ</li>
                       <li>มีการเรียกใช้ Component : App.jsx ไว้ตั้งต้นของ Page</li>
                     </ul>
@@ -167,8 +167,8 @@ const ReactTempleteGuide = (props) => {
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
-                      <div class="grid grid-rows-3 grid-flow-col gap-1 text-center p-2 rounded border border-dashed border-white">
-                        <div class="row-span-3 col-span-3 rounded border border-pink-400">BlankPage.jsx <br /><br /><br /></div>
+                      <div className="grid grid-rows-3 grid-flow-col gap-1 text-center p-2 rounded border border-dashed border-white">
+                        <div className="row-span-3 col-span-3 rounded border border-pink-400">BlankPage.jsx <br /><br /><br /></div>
                       </div>
 
                     </div>
@@ -184,7 +184,7 @@ const ReactTempleteGuide = (props) => {
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     DefaultPage.jsx เป็น Component หลักที่จะเอาไว้ให้ Page อื่นๆที่สร้างใหม่มาเกาะได้โดย
-                    <ul class="list-inside list-disc  pl-6">
+                    <ul className="list-inside list-disc  pl-6">
                       <li>จะเป็น Component สำเร็จรูปที่มี bar ต่างๆไว้ให้แล้ว</li>
                       <li>มีการเรียกใช้ Component : App.jsx ไว้ตั้งต้นของ Page</li>
                       <li>มีการเรียกใช้ Component : Narbar.jsx เมนูบน Page</li>
@@ -197,19 +197,19 @@ const ReactTempleteGuide = (props) => {
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
-                      <div class="grid grid-rows-3 grid-flow-col gap-1 text-center p-2 rounded border border-dashed border-white">
-                        <div class="row-span-3 col-span-3 rounded border border-pink-400">
+                      <div className="grid grid-rows-3 grid-flow-col gap-1 text-center p-2 rounded border border-dashed border-white">
+                        <div className="row-span-3 col-span-3 rounded border border-pink-400">
                           DefaultPage.jsx
-                          <div class="grid grid-rows-3 grid-flow-col gap-1 text-center p-2">
-                            <div class="col-span-3 rounded border border-dashed border-amber-300">Navbar.jsx</div>
-                            <div class="row-span-2 rounded border border-dashed border-lime-300">
+                          <div className="grid grid-rows-3 grid-flow-col gap-1 text-center p-2">
+                            <div className="col-span-3 rounded border border-dashed border-amber-300">Navbar.jsx</div>
+                            <div className="row-span-2 rounded border border-dashed border-lime-300">
                               Sidebar.jsx
-                              <div class="grid grid-rows-2 grid-flow-col gap-1 text-center p-1">
-                                <div class="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
-                                <div class="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
+                              <div className="grid grid-rows-2 grid-flow-col gap-1 text-center p-1">
+                                <div className="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
+                                <div className="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
                               </div>
                             </div>
-                            <div class="row-span-2 col-span-2 text-gray-600">Index.jsx</div>
+                            <div className="row-span-2 col-span-2 text-gray-600">Index.jsx</div>
                           </div>
 
                         </div>
@@ -230,7 +230,7 @@ const ReactTempleteGuide = (props) => {
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     Login.jsx เป็น Page ที่ทำให้มีการ router มาด้วย host:domain/login
-                    <ul class="list-inside list-disc  pl-6">
+                    <ul className="list-inside list-disc  pl-6">
                       <li>เป็น Page ที่มีหน้าที่เอาไว้ Login เข้าสู่ระบบ</li>
                       <li>มีการเรียกใช้ Component Page : BlankPage.jsx เพื่อต้องการ Component เปล่าๆไว้จัดการส่วนที่เหลือต่อ</li>
                       <li>และส่วนที่เหลือที่เพิ่มเข้ามาในกรอบสีแดงก็คือ Login.jsx</li>
@@ -242,11 +242,11 @@ const ReactTempleteGuide = (props) => {
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
-                      <div class="grid grid-rows-3 grid-flow-col gap-1 text-center p-2 rounded border border-dashed border-white">
-                        <div class="row-span-3 col-span-3 rounded border border-pink-400">
+                      <div className="grid grid-rows-3 grid-flow-col gap-1 text-center p-2 rounded border border-dashed border-white">
+                        <div className="row-span-3 col-span-3 rounded border border-pink-400">
                           BlankPage.jsx
-                          <div class="grid grid-rows-3 grid-flow-col gap-1 text-center p-2">
-                            <div class="row-span-3 col-span-3 rounded border border-red-600">
+                          <div className="grid grid-rows-3 grid-flow-col gap-1 text-center p-2">
+                            <div className="row-span-3 col-span-3 rounded border border-red-600">
                               Login.jsx
                               <br />
                               <br />
@@ -270,7 +270,7 @@ const ReactTempleteGuide = (props) => {
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     Index.jsx เป็น Page ที่ทำให้มีการ router มาด้วย host:domain/
-                    <ul class="list-inside list-disc pl-6">
+                    <ul className="list-inside list-disc pl-6">
                       <li>เป็น Page ที่มีหน้าที่เอาไว้ เป็นหน้าแรกหลังจากที่ Login เข้ามา</li>
                       <li>มีการเรียกใช้ Component Page : DefaultPage.jsx เพื่อต้องการ Component ที่มีจัดการ Navbar & Sidebar มาให้แล้ว</li>
                       <li>ส่วนที่เหลือที่เพิ่มเข้ามาในกรอบสีแดงก็คือ Index.jsx</li>
@@ -282,19 +282,19 @@ const ReactTempleteGuide = (props) => {
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
-                      <div class="grid grid-rows-3 grid-flow-col gap-1 text-center p-2 rounded border border-dashed border-white">
-                        <div class="row-span-3 col-span-3 rounded border border-pink-400">
+                      <div className="grid grid-rows-3 grid-flow-col gap-1 text-center p-2 rounded border border-dashed border-white">
+                        <div className="row-span-3 col-span-3 rounded border border-pink-400">
                           DefaultPage.jsx
-                          <div class="grid grid-rows-3 grid-flow-col gap-1 text-center p-2">
-                            <div class="col-span-3 rounded border border-dashed border-amber-300">Navbar.jsx</div>
-                            <div class="row-span-2 rounded border border-dashed border-lime-300">
+                          <div className="grid grid-rows-3 grid-flow-col gap-1 text-center p-2">
+                            <div className="col-span-3 rounded border border-dashed border-amber-300">Navbar.jsx</div>
+                            <div className="row-span-2 rounded border border-dashed border-lime-300">
                               Sidebar.jsx
-                              <div class="grid grid-rows-2 grid-flow-col gap-1 text-center p-1">
-                                <div class="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
-                                <div class="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
+                              <div className="grid grid-rows-2 grid-flow-col gap-1 text-center p-1">
+                                <div className="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
+                                <div className="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
                               </div>
                             </div>
-                            <div class="row-span-2 col-span-2 rounded border border-red-600">Index.jsx</div>
+                            <div className="row-span-2 col-span-2 rounded border border-red-600">Index.jsx</div>
                           </div>
 
                         </div>
@@ -313,7 +313,7 @@ const ReactTempleteGuide = (props) => {
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     ReactTempleteGuide.jsx เป็น Page ที่ทำให้มีการ router มาด้วย host:domain/reacttempleteguide
-                    <ul class="list-inside list-disc pl-6">
+                    <ul className="list-inside list-disc pl-6">
                       <li>เป็น Page ที่มีหน้าที่เอาไว้ เป็นหน้าแรกหลังจากที่ Login เข้ามา</li>
                       <li>มีการเรียกใช้ Component Page : DefaultPage.jsx เพื่อต้องการ Component ที่มีจัดการ Navbar & Sidebar มาให้แล้ว</li>
                       <li>ส่วนที่เหลือที่เพิ่มเข้ามาในกรอบสีแดงก็คือ ReactTempleteGuide.jsx</li>
@@ -325,19 +325,19 @@ const ReactTempleteGuide = (props) => {
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
-                      <div class="grid grid-rows-3 grid-flow-col gap-1 text-center p-2 rounded border border-dashed border-white">
-                        <div class="row-span-3 col-span-3 rounded border border-pink-400">
+                      <div className="grid grid-rows-3 grid-flow-col gap-1 text-center p-2 rounded border border-dashed border-white">
+                        <div className="row-span-3 col-span-3 rounded border border-pink-400">
                           DefaultPage.jsx
-                          <div class="grid grid-rows-3 grid-flow-col gap-1 text-center p-2">
-                            <div class="col-span-3 rounded border border-dashed border-amber-300">Navbar.jsx</div>
-                            <div class="row-span-2 rounded border border-dashed border-lime-300">
+                          <div className="grid grid-rows-3 grid-flow-col gap-1 text-center p-2">
+                            <div className="col-span-3 rounded border border-dashed border-amber-300">Navbar.jsx</div>
+                            <div className="row-span-2 rounded border border-dashed border-lime-300">
                               Sidebar.jsx
-                              <div class="grid grid-rows-2 grid-flow-col gap-1 text-center p-1">
-                                <div class="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
-                                <div class="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
+                              <div className="grid grid-rows-2 grid-flow-col gap-1 text-center p-1">
+                                <div className="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
+                                <div className="col-span-2 rounded border border-dashed border-blue-400">ListMenu.jsx</div>
                               </div>
                             </div>
-                            <div class="row-span-2 col-span-2 rounded border border-red-600">ReactTempleteGuide.jsx</div>
+                            <div className="row-span-2 col-span-2 rounded border border-red-600">ReactTempleteGuide.jsx</div>
                           </div>
 
                         </div>
