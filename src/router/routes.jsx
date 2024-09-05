@@ -9,6 +9,7 @@ const ReduxjsState = lazy(() => import('../pages/menus/reactreduxjs/ReduxjsState
 const ReduxjsReducer = lazy(() => import('../pages/menus/reactreduxjs/ReduxjsReducer'))
 const ReactRouter = lazy(() => import('../pages/menus/reactrouter/ReactRouter'))
 const ReactNavigate = lazy(() => import('../pages/menus/reactrouter/ReactNavigate'))
+const ReactTempleteGuide = lazy(() => import('../pages/menus/reacttempleteprototype/ReactTempleteGuide'))
 
 const routes = [
     {
@@ -59,6 +60,11 @@ const routes = [
     {
         path: '/reactnavigate',
         element: <ReactNavigate />,
+        layout: null,
+    },
+    {
+        path: '/reacttempleteguide',
+        element: <ReactTempleteGuide />,
         layout: null,
     },
 ]

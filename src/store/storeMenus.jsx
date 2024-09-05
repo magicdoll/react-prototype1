@@ -24,12 +24,12 @@ const listMenus = [
         ],
     },
     {
-        topic: 'React Template Prototype',
+        topic: 'React Templete Prototype',
         icon: '',
         submenu: [
             {
-                text: 'Template Guide',
-                to: '/reacttemplateguide',
+                text: 'Templete Guide',
+                to: '/reacttempleteguide',
             },
         ],
     },
