@@ -6,7 +6,7 @@ const ReactTempleteGuide = (props) => {
       <div className="grid grid-cols-1">
         <div className="block w-full bg-white rounded-lg p-2 grid place-items-center">
           
-          <div className="w-3/4 bg-white border-gray-200 border dark:border-gray-700 shadow rounded-lg p-5">
+          <div className="w-3/4 bg-white border border-gray-700 shadow rounded-lg p-5">
             <h2 className="text-lg font-semibold text-gray-900 mb-2">Templete Guid Prototype : Silkspan</h2>
             <p className="text-gray-500 mb-2">อธิบายโครางสร้างต่างๆของ React Templete Prototype ของบริษัท Silkspan</p>
             <p className="text-gray-500 mb-3">ส่วนไหนใช้อะไรรูปแบบไหน ประกอบไปด้วยอะไรบ้างรูปแบบไหนบ้าง</p>
@@ -22,7 +22,7 @@ const ReactTempleteGuide = (props) => {
               <div className='grid grid-cols-2 gap-4 mb-2'>
                 <div className='w-full'>
                   <div className="relative mb-2">
-                    <input id="step1-id" type="text" className="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={'./src/components/App.jsx'} disabled readonly />
+                    <input id="step1-id" type="text" className="col-span-6 border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-gray-400 focus:ring-blue-500 focus:border-blue-500" value={'./src/components/App.jsx'} disabled readonly />
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     App.jsx จะเป็น Component ที่คุมทุกไฟล์ในระบบนี้ไว้
@@ -34,7 +34,7 @@ const ReactTempleteGuide = (props) => {
                   </span>
                 </div>
                 <div className="w-full bg-gray-700 border border-gray-600 shadow rounded-lg py-3 px-5">
-                  <h2 className="text-md font-semibold text-gray-900 dark:text-gray-400 mb-2">ตัวอย่างโครง Component App.jsx</h2>
+                  <h2 className="text-md font-semibold text-gray-400 mb-2">ตัวอย่างโครง Component App.jsx</h2>
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
@@ -53,7 +53,7 @@ const ReactTempleteGuide = (props) => {
               <div className='grid grid-cols-2 gap-4 mt-2 mb-2'>
                 <div className='w-full'>
                   <div className="relative mb-2">
-                    <input id="step1-id" type="text" className="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={'./src/components/layouts/Navbar.jsx'} disabled readonly />
+                    <input id="step1-id" type="text" className="col-span-6 border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-gray-400 focus:ring-blue-500 focus:border-blue-500" value={'./src/components/layouts/Navbar.jsx'} disabled readonly />
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     Navbar.jsx เป็น Component แยกออกจากตัวอื่นๆ
@@ -63,7 +63,7 @@ const ReactTempleteGuide = (props) => {
                   </span>
                 </div>
                 <div className="w-full bg-gray-700 border border-gray-600 shadow rounded-lg py-3 px-5">
-                  <h2 className="text-md font-semibold text-gray-900 dark:text-gray-400 mb-2">ตัวอย่างโครง Component Navbar.jsx</h2>
+                  <h2 className="text-md font-semibold text-gray-400 mb-2">ตัวอย่างโครง Component Navbar.jsx</h2>
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
@@ -82,7 +82,7 @@ const ReactTempleteGuide = (props) => {
               <div className='grid grid-cols-2 gap-4 mt-2 mb-2'>
                 <div className='w-full'>
                   <div className="relative mb-2">
-                    <input id="step1-id" type="text" className="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={'./src/components/items/ListMenu.jsx'} disabled readonly />
+                    <input id="step1-id" type="text" className="col-span-6 border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-gray-400 focus:ring-blue-500 focus:border-blue-500" value={'./src/components/items/ListMenu.jsx'} disabled readonly />
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     ListMenu.jsx เป็น Component แยกออกจากตัวอื่นๆ
@@ -93,7 +93,7 @@ const ReactTempleteGuide = (props) => {
                   </span>
                 </div>
                 <div className="w-full bg-gray-700 border border-gray-600 shadow rounded-lg py-3 px-5">
-                  <h2 className="text-md font-semibold text-gray-900 dark:text-gray-400 mb-2">ตัวอย่างโครง Component ListMenu.jsx</h2>
+                  <h2 className="text-md font-semibold text-gray-400 mb-2">ตัวอย่างโครง Component ListMenu.jsx</h2>
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
@@ -116,7 +116,7 @@ const ReactTempleteGuide = (props) => {
               <div className='grid grid-cols-2 gap-4 mt-2 mb-2'>
                 <div className='w-full'>
                   <div className="relative mb-2">
-                    <input id="step1-id" type="text" className="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={'./src/components/layouts/Sidebar.jsx'} disabled readonly />
+                    <input id="step1-id" type="text" className="col-span-6 border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-gray-400 focus:ring-blue-500 focus:border-blue-500" value={'./src/components/layouts/Sidebar.jsx'} disabled readonly />
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     Sidebar.jsx เป็น Component แยกออกจากตัวอื่นๆ
@@ -127,7 +127,7 @@ const ReactTempleteGuide = (props) => {
                   </span>
                 </div>
                 <div className="w-full bg-gray-700 border border-gray-600 shadow rounded-lg py-3 px-5">
-                  <h2 className="text-md font-semibold text-gray-900 dark:text-gray-400 mb-2">ตัวอย่างโครง Component Sidebar.jsx</h2>
+                  <h2 className="text-md font-semibold text-gray-400 mb-2">ตัวอย่างโครง Component Sidebar.jsx</h2>
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
@@ -152,7 +152,7 @@ const ReactTempleteGuide = (props) => {
               <div className='grid grid-cols-2 gap-4 mt-2 mb-2'>
                 <div className='w-full'>
                   <div className="relative mb-2">
-                    <input id="step1-id" type="text" className="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={'./src/components/items/BlankPage.jsx'} disabled readonly />
+                    <input id="step1-id" type="text" className="col-span-6 border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-gray-400 focus:ring-blue-500 focus:border-blue-500" value={'./src/components/items/BlankPage.jsx'} disabled readonly />
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     BlankPage.jsx เป็น Component หลักที่จะเอาไว้ให้ Page อื่นๆที่สร้างใหม่มาเกาะได้โดย
@@ -163,7 +163,7 @@ const ReactTempleteGuide = (props) => {
                   </span>
                 </div>
                 <div className="w-full bg-gray-700 border border-gray-600 shadow rounded-lg py-3 px-5">
-                  <h2 className="text-md font-semibold text-gray-900 dark:text-gray-400 mb-2">ตัวอย่างโครง Component Page BlankPage.jsx</h2>
+                  <h2 className="text-md font-semibold text-gray-400 mb-2">ตัวอย่างโครง Component Page BlankPage.jsx</h2>
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
@@ -180,7 +180,7 @@ const ReactTempleteGuide = (props) => {
               <div className='grid grid-cols-2 gap-4 mt-2 mb-2'>
                 <div className='w-full'>
                   <div className="relative mb-2">
-                    <input id="step1-id" type="text" className="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={'./src/components/items/DefaultPage.jsx'} disabled readonly />
+                    <input id="step1-id" type="text" className="col-span-6 border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-gray-400 focus:ring-blue-500 focus:border-blue-500" value={'./src/components/items/DefaultPage.jsx'} disabled readonly />
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     DefaultPage.jsx เป็น Component หลักที่จะเอาไว้ให้ Page อื่นๆที่สร้างใหม่มาเกาะได้โดย
@@ -193,7 +193,7 @@ const ReactTempleteGuide = (props) => {
                   </span>
                 </div>
                 <div className="w-full bg-gray-700 border border-gray-600 shadow rounded-lg py-3 px-5">
-                  <h2 className="text-md font-semibold text-gray-900 dark:text-gray-400 mb-2">ตัวอย่างโครง Component Page DefaultPage.jsx</h2>
+                  <h2 className="text-md font-semibold text-gray-400 mb-2">ตัวอย่างโครง Component Page DefaultPage.jsx</h2>
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
@@ -226,7 +226,7 @@ const ReactTempleteGuide = (props) => {
               <div className='grid grid-cols-2 gap-4 mt-2 mb-2'>
                 <div className='w-full'>
                   <div className="relative mb-2">
-                    <input id="step1-id" type="text" className="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={'./src/pages/Login.jsx'} disabled readonly />
+                    <input id="step1-id" type="text" className="col-span-6 border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-gray-400 focus:ring-blue-500 focus:border-blue-500" value={'./src/pages/Login.jsx'} disabled readonly />
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     Login.jsx เป็น Page ที่ทำให้มีการ router มาด้วย host:domain/login
@@ -238,7 +238,7 @@ const ReactTempleteGuide = (props) => {
                   </span>
                 </div>
                 <div className="w-full bg-gray-700 border border-gray-600 shadow rounded-lg py-3 px-5">
-                  <h2 className="text-md font-semibold text-gray-900 dark:text-gray-400 mb-2">ตัวอย่าง Page:Login.jsx ที่ใช้งาน Component</h2>
+                  <h2 className="text-md font-semibold text-gray-400 mb-2">ตัวอย่าง Page:Login.jsx ที่ใช้งาน Component</h2>
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
@@ -266,7 +266,7 @@ const ReactTempleteGuide = (props) => {
               <div className='grid grid-cols-2 gap-4 mt-2 mb-2'>
                 <div className='w-full'>
                   <div className="relative mb-2">
-                    <input id="step1-id" type="text" className="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={'./src/pages/menus/Index.jsx'} disabled readonly />
+                    <input id="step1-id" type="text" className="col-span-6 border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-gray-400 focus:ring-blue-500 focus:border-blue-500" value={'./src/pages/menus/Index.jsx'} disabled readonly />
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     Index.jsx เป็น Page ที่ทำให้มีการ router มาด้วย host:domain/
@@ -278,7 +278,7 @@ const ReactTempleteGuide = (props) => {
                   </span>
                 </div>
                 <div className="w-full bg-gray-700 border border-gray-600 shadow rounded-lg py-3 px-5">
-                  <h2 className="text-md font-semibold text-gray-900 dark:text-gray-400 mb-2">ตัวอย่าง Page:Index.jsx ที่ใช้งาน Component</h2>
+                  <h2 className="text-md font-semibold text-gray-400 mb-2">ตัวอย่าง Page:Index.jsx ที่ใช้งาน Component</h2>
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 
@@ -309,7 +309,7 @@ const ReactTempleteGuide = (props) => {
               <div className='grid grid-cols-2 gap-4 mt-2 mb-2'>
                 <div className='w-full'>
                   <div className="relative mb-2">
-                    <input id="step1-id" type="text" className="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value={'./src/pages/menus/reacttempleteprototype/ReactTempleteGuide.jsx'} disabled readonly />
+                    <input id="step1-id" type="text" className="col-span-6 border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-gray-400 focus:ring-blue-500 focus:border-blue-500" value={'./src/pages/menus/reacttempleteprototype/ReactTempleteGuide.jsx'} disabled readonly />
                   </div>
                   <span className='text-xs text-gray-500 pl-4'>
                     ReactTempleteGuide.jsx เป็น Page ที่ทำให้มีการ router มาด้วย host:domain/reacttempleteguide
@@ -321,7 +321,7 @@ const ReactTempleteGuide = (props) => {
                   </span>
                 </div>
                 <div className="w-full bg-gray-700 border border-gray-600 shadow rounded-lg py-3 px-5">
-                  <h2 className="text-md font-semibold text-gray-900 dark:text-gray-400 mb-2">ตัวอย่าง Page:ReactTempleteGuide.jsx ที่ใช้งาน Component</h2>
+                  <h2 className="text-md font-semibold text-gray-400 mb-2">ตัวอย่าง Page:ReactTempleteGuide.jsx ที่ใช้งาน Component</h2>
                   <address className="relative bg-gray-600 border-gray-500 p-4 rounded-lg border not-italic grid grid-cols-1">
                     <div className="space-y-2 text-gray-400 leading-loose hidden sm:block">
 

@@ -75,9 +75,9 @@ const Installation = () => {
       <div className="grid grid-cols-1">
         <div className="block w-full bg-white rounded-lg p-2 grid place-items-center">
           
-          <div className="w-3/4 bg-white border-gray-200 border dark:border-gray-700 shadow rounded-lg p-5">
+          <div className="w-3/4 bg-white border-gray-700 shadow rounded-lg p-5">
             <h2 className="text-lg font-semibold text-gray-900 mb-2">Create React with Vite</h2>
-            <p className="text-gray-500 mb-6">ขั้นตอนการการสร้างโปรเจคด้วยตัวเองโดยไม่ต้องการ Clone เราจะสร้างโปรเจคผ่าน <a href="https://vitejs.dev/" target="_blank" class="text-blue-700 dark:text-blue-500 underline hover:no-underline font-medium">Vite</a>.</p>
+            <p className="text-gray-500 mb-6">ขั้นตอนการการสร้างโปรเจคด้วยตัวเองโดยไม่ต้องการ Clone เราจะสร้างโปรเจคผ่าน <a href="https://vitejs.dev/" target="_blank" class="text-blue-500 underline hover:no-underline font-medium">Vite</a>.</p>
             
             {
               arrcmd.map((item) => 
