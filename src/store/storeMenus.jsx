@@ -86,6 +86,20 @@ const listMenus = [
         ],
     },
     {
+        topic: 'React Localstorage',
+        icon: '',
+        submenu: [
+            {
+                text: 'Introduce',
+                to: '/localstorageintroduce',
+            },
+            {
+                text: 'Cross Domain',
+                to: '/localstoragecrossdomain',
+            },
+        ],
+    },
+    {
         topic: 'NodeJS Getting Started',
         icon: '',
         submenu: [

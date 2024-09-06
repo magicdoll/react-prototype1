@@ -10,6 +10,8 @@ const ReduxjsReducer = lazy(() => import('../pages/menus/reactreduxjs/ReduxjsRed
 const ReactRouter = lazy(() => import('../pages/menus/reactrouter/ReactRouter'))
 const ReactNavigate = lazy(() => import('../pages/menus/reactrouter/ReactNavigate'))
 const ReactTempleteGuide = lazy(() => import('../pages/menus/reacttempleteprototype/ReactTempleteGuide'))
+const LocalstorageIntroduce = lazy(() => import('../pages/menus/reactlocalstorage/LocalstorageIntroduce'))
+const LocalstorageCrossDomain = lazy(() => import('../pages/menus/reactlocalstorage/LocalstorageCrossDomain'))
 
 const routes = [
     {
@@ -65,6 +67,16 @@ const routes = [
     {
         path: '/reacttempleteguide',
         element: <ReactTempleteGuide />,
+        layout: null,
+    },
+    {
+        path: '/localstorageintroduce',
+        element: <LocalstorageIntroduce />,
+        layout: null,
+    },
+    {
+        path: '/localstoragecrossdomain',
+        element: <LocalstorageCrossDomain />,
         layout: null,
     },
 ]
