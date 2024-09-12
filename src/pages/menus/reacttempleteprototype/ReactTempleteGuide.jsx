@@ -314,7 +314,6 @@ const ReactTempleteGuide = (props) => {
                   <span className='text-xs text-gray-500 pl-4'>
                     ReactTempleteGuide.jsx เป็น Page ที่ทำให้มีการ router มาด้วย host:domain/reacttempleteguide
                     <ul className="list-inside list-disc pl-6">
-                      <li>เป็น Page ที่มีหน้าที่เอาไว้ เป็นหน้าแรกหลังจากที่ Login เข้ามา</li>
                       <li>มีการเรียกใช้ Component Page : DefaultPage.jsx เพื่อต้องการ Component ที่มีจัดการ Navbar & Sidebar มาให้แล้ว</li>
                       <li>ส่วนที่เหลือที่เพิ่มเข้ามาในกรอบสีแดงก็คือ ReactTempleteGuide.jsx</li>
                     </ul>

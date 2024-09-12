@@ -4,7 +4,6 @@ const Index = lazy(() => import('../pages/menus/Index'))
 const GitClone = lazy(() => import('../pages/menus/reactgettingstarteds/GitClone'))
 const Installation = lazy(() => import('../pages/menus/reactgettingstarteds/Installation'))
 const Component = lazy(() => import('../pages/menus/reactcomponents/Component'))
-const ComponentsProps = lazy(() => import('../pages/menus/reactcomponents/ComponentsProps'))
 const ReduxjsState = lazy(() => import('../pages/menus/reactreduxjs/ReduxjsState'))
 const ReduxjsReducer = lazy(() => import('../pages/menus/reactreduxjs/ReduxjsReducer'))
 const ReactRouter = lazy(() => import('../pages/menus/reactrouter/ReactRouter'))
@@ -37,11 +36,6 @@ const routes = [
     {
         path: '/component',
         element: <Component />,
-        layout: null,
-    },
-    {
-        path: '/componentsprops',
-        element: <ComponentsProps />,
         layout: null,
     },
     {

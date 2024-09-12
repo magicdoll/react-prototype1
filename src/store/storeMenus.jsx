@@ -41,10 +41,6 @@ const listMenus = [
                 text: 'Component',
                 to: '/component',
             },
-            {
-                text: 'Props',
-                to: '/componentsprops',
-            },
         ],
     },
     {
