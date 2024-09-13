@@ -69,10 +69,12 @@ const Component = (props) => {
                   <br/><span className='text-blue-400'>{`const`}</span> {` Index = () => {`}
                   <br/>
                   <br/>&ensp;<span className='text-pink-400'>{`return`}</span>{` (`}
-                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard`}</span>{` />`}
-                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard`}</span>{` />`}
-                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard`}</span>{` />`}
-                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard`}</span>{` />`}
+                  <br/>&ensp;&ensp;{`<>`}
+                  <br/>&ensp;&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard`}</span>{` />`}
+                  <br/>&ensp;&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard`}</span>{` />`}
+                  <br/>&ensp;&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard`}</span>{` />`}
+                  <br/>&ensp;&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard`}</span>{` />`}
+                  <br/>&ensp;&ensp;{`</>`}
                   <br/>&ensp;{`)`}
                   <br/>{`}`}
                   <br/>
@@ -152,10 +154,12 @@ const Component = (props) => {
                   <br/><span className='text-blue-400'>{`const`}</span> {` Index = () => {`}
                   <br/>
                   <br/>&ensp;<span className='text-pink-400'>{`return`}</span>{` (`}
-                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard `}</span> <span className='text-yellow-400'>{`cardurlpic="`}</span>url รูปภาพพนักงาน <span className='text-yellow-400'>{`" cardfullname="`}</span>ทดสอบ หนึ่ง <span className='text-yellow-400'>{`" cardrank="`}</span>Project Manager{`" />`}
-                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard `}</span> <span className='text-yellow-400'>{`cardurlpic="`}</span>url รูปภาพพนักงาน <span className='text-yellow-400'>{`" cardfullname="`}</span>ทดสอบ สอง <span className='text-yellow-400'>{`" cardrank="`}</span>System Analyst{`" />`}
-                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard `}</span> <span className='text-yellow-400'>{`cardurlpic="`}</span>url รูปภาพพนักงาน <span className='text-yellow-400'>{`" cardfullname="`}</span>ทดสอบ สาม <span className='text-yellow-400'>{`" cardrank="`}</span>Programmer{`" />`}
-                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard `}</span> <span className='text-yellow-400'>{`cardurlpic="`}</span>url รูปภาพพนักงาน <span className='text-yellow-400'>{`" cardfullname="`}</span>ทดสอบ สี่ <span className='text-yellow-400'>{`" cardrank="`}</span>Programmer{`" />`}
+                  <br/>&ensp;&ensp;{`<>`}
+                  <br/>&ensp;&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard `}</span> <span className='text-yellow-400'>{`cardurlpic="`}</span>url รูปภาพพนักงาน <span className='text-yellow-400'>{`" cardfullname="`}</span>ทดสอบ หนึ่ง <span className='text-yellow-400'>{`" cardrank="`}</span>Project Manager{`" />`}
+                  <br/>&ensp;&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard `}</span> <span className='text-yellow-400'>{`cardurlpic="`}</span>url รูปภาพพนักงาน <span className='text-yellow-400'>{`" cardfullname="`}</span>ทดสอบ สอง <span className='text-yellow-400'>{`" cardrank="`}</span>System Analyst{`" />`}
+                  <br/>&ensp;&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard `}</span> <span className='text-yellow-400'>{`cardurlpic="`}</span>url รูปภาพพนักงาน <span className='text-yellow-400'>{`" cardfullname="`}</span>ทดสอบ สาม <span className='text-yellow-400'>{`" cardrank="`}</span>Programmer{`" />`}
+                  <br/>&ensp;&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard `}</span> <span className='text-yellow-400'>{`cardurlpic="`}</span>url รูปภาพพนักงาน <span className='text-yellow-400'>{`" cardfullname="`}</span>ทดสอบ สี่ <span className='text-yellow-400'>{`" cardrank="`}</span>Programmer{`" />`}
+                  <br/>&ensp;&ensp;{`</>`}
                   <br/>&ensp;{`)`}
                   <br/>{`}`}
                   <br/>
