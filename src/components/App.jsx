@@ -20,7 +20,7 @@ const App = (props) => {
   })
 
   return (
-    <div className='font-sans main-section antialiased relative text-sm'>
+    <div className='font-mitr main-section antialiased relative text-sm'>
         {props.children}
     </div>
   )
