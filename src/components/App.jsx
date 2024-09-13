@@ -12,9 +12,11 @@ const App = (props) => {
   const userinfo = useSelector((state) => state.userinfo)
   useEffect(() => {
     dispatch(setPageLocaltion(pathname))
+    /*
     if (!userinfo.usercode && textmenufocus !== 'login') {
       navigate('/login', { replace: true })
     }
+    */
   })
 
   return (

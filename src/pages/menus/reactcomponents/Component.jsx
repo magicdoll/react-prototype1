@@ -42,41 +42,41 @@ const Component = (props) => {
                 </div>
 
 
-                <div className="w-full text-white bg-gray-700 border border-gray-600 shadow rounded-lg py-3 px-5 mb-2">
-                  <br/>{`const ExpCardComponents = () => {`}
+                <div className="w-full text-white bg-slate-900 border border-gray-600 shadow rounded-lg py-3 px-5 mb-2">
+                  <br/><span className='text-blue-400'>{`const`}</span> {` ExpCardComponents = () => {`}
                   <br/>
-                  <br/>&ensp;{`return (`}
-                  <br/>&ensp;&ensp;{`<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow">`}
-                  <br/>&ensp;&ensp;&ensp;{`<div class="flex flex-col items-center pb-4">`}
-                  <br/>&ensp;&ensp;&ensp;&ensp;{`<img class="w-24 h-24 mt-2 mb-3 rounded-full shadow-lg" src="https://placehold.co/500x500" />`}
-                  <br/>&ensp;&ensp;&ensp;&ensp;{`<h5 class="mb-1 text-md font-medium text-gray-900">ชื่อ: ไม่บอกหรอก</h5>`}
-                  <br/>&ensp;&ensp;&ensp;&ensp;{`<span class="text-sm text-gray-500">ตำแหน่ง: อยากรู้อะดิ</span>`}
-                  <br/>&ensp;&ensp;&ensp;{`</div>`}
-                  <br/>&ensp;&ensp;{`</div>`}
+                  <br/>&ensp;<span className='text-pink-400'>{`return`}</span>{` (`}
+                  <br/>&ensp;&ensp;{`<`}<span className='text-blue-400'>{`div`}</span> {` class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow">`}
+                  <br/>&ensp;&ensp;&ensp;{`<`}<span className='text-blue-400'>{`div`}</span> {` class="flex flex-col items-center pb-4">`}
+                  <br/>&ensp;&ensp;&ensp;&ensp;{`<`}<span className='text-blue-400'>{`img`}</span> {` class="w-24 h-24 mt-2 mb-3 rounded-full shadow-lg" src="`}<span className='text-yellow-400'>{`https://placehold.co/500x500`}</span>{`" />`}
+                  <br/>&ensp;&ensp;&ensp;&ensp;{`<`}<span className='text-blue-400'>{`h5`}</span> {` class="mb-1 text-md font-medium text-gray-900">`}<span className='text-yellow-400'>{`ชื่อ: ไม่บอกหรอก`}</span>{`</`}<span className='text-blue-400'>{`h5`}</span>{`>`}
+                  <br/>&ensp;&ensp;&ensp;&ensp;{`<`}<span className='text-blue-400'>{`span`}</span> {` class="text-sm text-gray-500">`}<span className='text-yellow-400'>{`ตำแหน่ง: อยากรู้อะดิ`}</span>{`</`}<span className='text-blue-400'>{`span`}</span>{`>`}
+                  <br/>&ensp;&ensp;&ensp;{`</`}<span className='text-blue-400'>{`div`}</span> {`>`}
+                  <br/>&ensp;&ensp;{`</`}<span className='text-blue-400'>{`div`}</span> {`>`}
                   <br/>&ensp;{`)`}
                   <br/>{`}`}
                   <br/>
-                  <br/>{`export default ExpCardComponents`}
+                  <br/><span className='text-pink-400'>{`export default`}</span>{` ExpCardComponents`}
                 </div>
 
                 <div className='w-full text-center text-gray-600 mb-4'>
                   <span>ตัวอย่างการสร้าง Components</span>
                 </div>
 
-                <div className="w-full text-white bg-gray-700 border border-gray-600 shadow rounded-lg py-3 px-5 mb-2">
-                  <br/>{`import ListCard from './src/components/items/reactcomponents/ExpCardComponents'`}
+                <div className="w-full text-white bg-slate-900 border border-gray-600 shadow rounded-lg py-3 px-5 mb-2">
+                  <br/><span className='text-pink-400'>{`import`}</span><span className='text-green-400'>{` ListCard `}</span><span className='text-pink-400'>{`from`}</span>{` './src/components/items/reactcomponents/ExpCardComponents'`}
                   <br/>
-                  <br/>{`const Index = () => {`}
+                  <br/><span className='text-blue-400'>{`const`}</span> {` Index = () => {`}
                   <br/>
-                  <br/>&ensp;{`return (`}
-                  <br/>&ensp;&ensp;{`<ListCard />`}
-                  <br/>&ensp;&ensp;{`<ListCard />`}
-                  <br/>&ensp;&ensp;{`<ListCard />`}
-                  <br/>&ensp;&ensp;{`<ListCard />`}
+                  <br/>&ensp;<span className='text-pink-400'>{`return`}</span>{` (`}
+                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard`}</span>{` />`}
+                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard`}</span>{` />`}
+                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard`}</span>{` />`}
+                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard`}</span>{` />`}
                   <br/>&ensp;{`)`}
                   <br/>{`}`}
                   <br/>
-                  <br/>{`export default Index`}
+                  <br/><span className='text-pink-400'>{`export default`}</span>{` Index`}
                 </div>
 
                 <div className='w-full text-center text-gray-600'>
@@ -125,41 +125,41 @@ const Component = (props) => {
                 </div>
 
 
-                <div className="w-full text-white bg-gray-700 border border-gray-600 shadow rounded-lg py-3 px-5 mb-2">
-                  <br/>{`const ExpCardComponents = (props) => {`}
+                <div className="w-full text-white bg-slate-900 border border-gray-600 shadow rounded-lg py-3 px-5 mb-2">
+                  <br/><span className='text-blue-400'>{`const`}</span> {` ExpCardComponents = (`}<span className='text-green-400'>{`props`}</span>{`) => {`}
                   <br/>
-                  <br/>&ensp;{`return (`}
-                  <br/>&ensp;&ensp;{`<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow">`}
-                  <br/>&ensp;&ensp;&ensp;{`<div class="flex flex-col items-center pb-4">`}
-                  <br/>&ensp;&ensp;&ensp;&ensp;{`<img class="w-24 h-24 mt-2 mb-3 rounded-full shadow-lg" src={props.cardurlpic} />`}
-                  <br/>&ensp;&ensp;&ensp;&ensp;{`<h5 class="mb-1 text-md font-medium text-gray-900">ชื่อ: {props.cardfullname}</h5>`}
-                  <br/>&ensp;&ensp;&ensp;&ensp;{`<span class="text-sm text-gray-500">ตำแหน่ง: {props.cardrank}</span>`}
-                  <br/>&ensp;&ensp;&ensp;{`</div>`}
-                  <br/>&ensp;&ensp;{`</div>`}
+                  <br/>&ensp;<span className='text-pink-400'>{`return`}</span>{` (`}
+                  <br/>&ensp;&ensp;{`<`}<span className='text-blue-400'>{`div`}</span> {` class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow">`}
+                  <br/>&ensp;&ensp;&ensp;{`<`}<span className='text-blue-400'>{`div`}</span> {` class="flex flex-col items-center pb-4">`}
+                  <br/>&ensp;&ensp;&ensp;&ensp;{`<`}<span className='text-blue-400'>{`img`}</span> {` class="w-24 h-24 mt-2 mb-3 rounded-full shadow-lg" src={`}<span className='text-green-400'>{`props`}</span>.<span className='text-yellow-400'>{`cardurlpic`}</span>{`} />`}
+                  <br/>&ensp;&ensp;&ensp;&ensp;{`<`}<span className='text-blue-400'>{`h5`}</span> {` class="mb-1 text-md font-medium text-gray-900">{`}<span className='text-green-400'>{`props`}</span>.<span className='text-yellow-400'>{`cardfullname`}</span>{`}</`}<span className='text-blue-400'>{`h5`}</span>{`>`}
+                  <br/>&ensp;&ensp;&ensp;&ensp;{`<`}<span className='text-blue-400'>{`span`}</span> {` class="text-sm text-gray-500">{`}<span className='text-green-400'>{`props`}</span>.<span className='text-yellow-400'>{`cardrank`}</span>{`}</`}<span className='text-blue-400'>{`span`}</span>{`>`}
+                  <br/>&ensp;&ensp;&ensp;{`</`}<span className='text-blue-400'>{`div`}</span> {`>`}
+                  <br/>&ensp;&ensp;{`</`}<span className='text-blue-400'>{`div`}</span> {`>`}
                   <br/>&ensp;{`)`}
                   <br/>{`}`}
                   <br/>
-                  <br/>{`export default ExpCardComponents`}
+                  <br/><span className='text-pink-400'>{`export default`}</span>{` ExpCardComponents`}
                 </div>
 
                 <div className='w-full text-center text-gray-600 mb-4'>
                   <span>ตัวอย่างการสร้าง Components แล้วเรียกใช้งาน Props</span>
                 </div>
 
-                <div className="w-full text-white bg-gray-700 border border-gray-600 shadow rounded-lg py-3 px-5 mb-2">
-                  <br/>{`import ListCard from './src/components/items/reactcomponents/ExpCardComponents'`}
+                <div className="w-full text-white bg-slate-900 border border-gray-600 shadow rounded-lg py-3 px-5 mb-2">
+                  <br/><span className='text-pink-400'>{`import`}</span><span className='text-green-400'>{` ListCard `}</span><span className='text-pink-400'>{`from`}</span>{` './src/components/items/reactcomponents/ExpCardComponents'`}
                   <br/>
-                  <br/>{`const Index = () => {`}
+                  <br/><span className='text-blue-400'>{`const`}</span> {` Index = () => {`}
                   <br/>
-                  <br/>&ensp;{`return (`}
-                  <br/>&ensp;&ensp;{`<ListCard cardurlpic="url รูปภาพพนักงาน" cardfullname="ทดสอบ หนึ่ง" cardrank="Project Manager" />`}
-                  <br/>&ensp;&ensp;{`<ListCard cardurlpic="url รูปภาพพนักงาน" cardfullname="ทดสอบ สอง" cardrank="System Analyst" />`}
-                  <br/>&ensp;&ensp;{`<ListCard cardurlpic="url รูปภาพพนักงาน" cardfullname="ทดสอบ สาม" cardrank="Programmer" />`}
-                  <br/>&ensp;&ensp;{`<ListCard cardurlpic="url รูปภาพพนักงาน" cardfullname="ทดสอบ สี่" cardrank="Programmer" />`}
+                  <br/>&ensp;<span className='text-pink-400'>{`return`}</span>{` (`}
+                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard `}</span> <span className='text-yellow-400'>{`cardurlpic="`}</span>url รูปภาพพนักงาน <span className='text-yellow-400'>{`" cardfullname="`}</span>ทดสอบ หนึ่ง <span className='text-yellow-400'>{`" cardrank="`}</span>Project Manager{`" />`}
+                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard `}</span> <span className='text-yellow-400'>{`cardurlpic="`}</span>url รูปภาพพนักงาน <span className='text-yellow-400'>{`" cardfullname="`}</span>ทดสอบ สอง <span className='text-yellow-400'>{`" cardrank="`}</span>System Analyst{`" />`}
+                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard `}</span> <span className='text-yellow-400'>{`cardurlpic="`}</span>url รูปภาพพนักงาน <span className='text-yellow-400'>{`" cardfullname="`}</span>ทดสอบ สาม <span className='text-yellow-400'>{`" cardrank="`}</span>Programmer{`" />`}
+                  <br/>&ensp;&ensp;{`<`}<span className='text-green-400'>{`ListCard `}</span> <span className='text-yellow-400'>{`cardurlpic="`}</span>url รูปภาพพนักงาน <span className='text-yellow-400'>{`" cardfullname="`}</span>ทดสอบ สี่ <span className='text-yellow-400'>{`" cardrank="`}</span>Programmer{`" />`}
                   <br/>&ensp;{`)`}
                   <br/>{`}`}
                   <br/>
-                  <br/>{`export default Index`}
+                  <br/><span className='text-pink-400'>{`export default`}</span>{` Index`}
                 </div>
 
                 <div className='w-full text-center text-gray-600'>
