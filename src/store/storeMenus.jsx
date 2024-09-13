@@ -72,16 +72,6 @@ const listMenus = [
         ],
     },
     {
-        topic: 'React Axios',
-        icon: '',
-        submenu: [
-            {
-                text: 'Call API',
-                to: '/reactrouter',
-            },
-        ],
-    },
-    {
         topic: 'React Localstorage',
         icon: '',
         submenu: [
@@ -92,6 +82,16 @@ const listMenus = [
             {
                 text: 'Cross Domain',
                 to: '/localstoragecrossdomain',
+            },
+        ],
+    },
+    {
+        topic: 'React Axios',
+        icon: '',
+        submenu: [
+            {
+                text: 'Call API',
+                to: '/reactrouter',
             },
         ],
     },
