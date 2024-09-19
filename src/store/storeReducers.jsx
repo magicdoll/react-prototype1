@@ -15,6 +15,10 @@ const initialState = {
     , textmenufocus: 'login'
     , isOpenSidebar: false
     , listMenus: listMenus
+    , jsmenu: {
+        cntlike: 0
+        , arrlistlike: []
+    }
 }
 
 const storeConfig = createSlice({
@@ -56,11 +60,20 @@ const storeConfig = createSlice({
         },
         setToggleSidebar(state, { payload }) {
             state.isOpenSidebar = (payload ? payload : !state.isOpenSidebar)
+        },
+        setMenuReduxjsSetCntlike(state, { payload }) {
+            state.jsmenu.cntlike += (payload.like ? 1 : -1)
+            if (payload.like) {
+                state.jsmenu.arrlistlike.push(payload.fullname)
+            }
+            else {
+                state.jsmenu.arrlistlike = state.jsmenu.arrlistlike.filter((str) => str != payload.fullname)
+            }
         }
     }
 })
 
-export const { setUserInfo, setPageLocaltion, setToggleSidebar } = storeConfig.actions
+export const { setUserInfo, setPageLocaltion, setToggleSidebar, setMenuReduxjsSetCntlike } = storeConfig.actions
 export default configureStore({
     reducer: storeConfig.reducer
 })

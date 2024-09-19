@@ -48,12 +48,8 @@ const listMenus = [
         icon: '',
         submenu: [
             {
-                text: 'State',
-                to: '/reduxjsstate',
-            },
-            {
-                text: 'Reducer',
-                to: '/reduxjsreducer',
+                text: 'React Hooks',
+                to: '/redexjsreacthooks',
             },
         ],
     },
