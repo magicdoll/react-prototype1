@@ -5,7 +5,7 @@ import { setMenuReduxjsSetCntlike } from '../../../store/storeReducers'
 const ExpCardV2 = (props) => {
   const dispatch = useDispatch()
   const [like, setLike] = useState(false)
-  const arrlistlike = useSelector((state) => state.jsmenu.arrlistlike)
+  const arrlistlike = useSelector((state) => state.jsmenureduxjs.arrlistlike)
 
   const fnSetLike = async () => {
     setLike(!like)
@@ -46,7 +46,7 @@ const ExpCardV2 = (props) => {
           </ul>
         </div>
       </div>
-      
+
     </div>
   )
 }

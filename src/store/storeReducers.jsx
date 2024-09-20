@@ -15,7 +15,7 @@ const initialState = {
     , textmenufocus: 'login'
     , isOpenSidebar: false
     , listMenus: listMenus
-    , jsmenu: {
+    , jsmenureduxjs: {
         cntlike: 0
         , arrlistlike: []
     }
@@ -62,12 +62,12 @@ const storeConfig = createSlice({
             state.isOpenSidebar = (payload ? payload : !state.isOpenSidebar)
         },
         setMenuReduxjsSetCntlike(state, { payload }) {
-            state.jsmenu.cntlike += (payload.like ? 1 : -1)
+            state.jsmenureduxjs.cntlike += (payload.like ? 1 : -1)
             if (payload.like) {
-                state.jsmenu.arrlistlike.push(payload.fullname)
+                state.jsmenureduxjs.arrlistlike.push(payload.fullname)
             }
             else {
-                state.jsmenu.arrlistlike = state.jsmenu.arrlistlike.filter((str) => str != payload.fullname)
+                state.jsmenureduxjs.arrlistlike = state.jsmenureduxjs.arrlistlike.filter((str) => str != payload.fullname)
             }
         }
     }
