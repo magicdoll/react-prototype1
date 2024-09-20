@@ -12,7 +12,7 @@ const GitClone = (props) => {
         <div className="block w-full bg-white rounded-lg p-2 grid place-items-center">
           
           <div className="w-2/4 bg-white border-gray-700 shadow rounded-lg p-5">
-            <h2 className="text-lg font-semibold text-gray-900 mb-2">Prototype Clone with Github</h2>
+            <h2 className="text-xl font-semibold text-gray-900 mb-2">Prototype Clone with Github</h2>
             <p className="text-gray-500 mb-6">ขั้นตอนการ Clone โค้ดทั้งหมดของ Prototype นี้ลงมาที่เครื่องตัวเองด้วย <a href="https://www.github.com" target="_blank" class="text-blue-500 underline hover:no-underline font-medium">Github</a>.</p>
             
             <label for="step1-id" className="text-sm font-medium text-gray-900 block">ขั้นตอนที่ 1 : Git Clone </label>

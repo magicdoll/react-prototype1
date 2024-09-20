@@ -8,7 +8,7 @@ const Component = (props) => {
         <div className="block w-full bg-white rounded-lg p-2 grid place-items-center">
           
           <div className="w-3/4 bg-white border border-gray-700 shadow rounded-lg p-5">
-            <h2 className="text-lg font-semibold text-gray-900 mb-2">React.jsx Component</h2>
+            <h2 className="text-xl font-semibold text-gray-900 mb-2">React.jsx Component</h2>
             <p className="text-gray-500 mb-2">ในการพัฒนาระบบด้วย React จะแบ่งการแสดงผลของระบบที่พัฒนา ออกเป็นส่วนย่อยๆที่เรียกว่า Component โดยจะไม่เขียนโค้ดทั้งหมดไว้อยู่ในหน้าเดียว เพื่อให้ง่ายต่อการจัดการโค้ด และการนำกลับมาใช้ได้โดยไม่ต้องเขียนโค้ดซ้ำๆกันในหลายๆที่</p>
             
             {/* Exp1 */}

@@ -13,11 +13,11 @@ const ReduxjsReactHooks = (props) => {
         <div className="block w-full bg-white rounded-lg p-2 grid place-items-center">
           
           <div className="w-3/4 bg-white border border-gray-700 shadow rounded-lg p-5">
-            <h2 className="text-lg font-semibold text-gray-900 mb-2">Reduxjs/Toolkit : React Hooks {'{ state, reducer }'}</h2>
+            <h2 className="text-xl font-semibold text-gray-900 mb-2">Reduxjs/Toolkit : React Hooks {'{ state, reducer }'}</h2>
             
             {/* Exp1 */}
             <div className='mb-6'>
-              <label for="step1-id" className="text-md font-bold text-gray-900 block mb-1 mt-5">Exp 1. React Hook : State </label>
+              <label for="step1-id" className="text-lg font-bold text-gray-900 block mb-1 mt-5">Exp 1. React Hook : State </label>
 
               <div className='mb-2'>
                 <div className="w-full bg-gray-700 border border-gray-600 shadow rounded-lg py-3 px-5">
@@ -117,7 +117,7 @@ const ReduxjsReactHooks = (props) => {
 
             {/* Exp2 */}
             <div className=''>
-              <label for="step1-id" className="text-md font-bold text-gray-900 block mb-1 mt-5">Exp 2. Reduxjs/Toolkit Hook : State, Reducer </label>
+              <label for="step1-id" className="text-lg font-bold text-gray-900 block mb-1 mt-5">Exp 2. Reduxjs/Toolkit Hook : State, Reducer </label>
               <p className="text-gray-500 mb-2">เป็นอีกเทคนิคการเขียนรูปแบบหนึ่ง ที่จะมาทดแทนการเขียนในรูปแบบการเขียนแบบ connect() ที่ยุ่งยากในสมัยก่อน </p>
               <p className="text-gray-500 mb-2">โดยสามารถเรียกใช้จาก Library ที่ชื่อว่า react-redux ได้เลย</p>
 

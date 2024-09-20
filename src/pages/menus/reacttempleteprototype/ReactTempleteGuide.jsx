@@ -7,7 +7,7 @@ const ReactTempleteGuide = (props) => {
         <div className="block w-full bg-white rounded-lg p-2 grid place-items-center">
           
           <div className="w-3/4 bg-white border border-gray-700 shadow rounded-lg p-5">
-            <h2 className="text-lg font-semibold text-gray-900 mb-2">Templete Guid Prototype : Silkspan</h2>
+            <h2 className="text-xl font-semibold text-gray-900 mb-2">Templete Guid Prototype : Silkspan</h2>
             <p className="text-gray-500 mb-2">อธิบายโครางสร้างต่างๆของ React Templete Prototype ของบริษัท Silkspan</p>
             <p className="text-gray-500 mb-3">ส่วนไหนใช้อะไรรูปแบบไหน ประกอบไปด้วยอะไรบ้างรูปแบบไหนบ้าง</p>
             <p className="text-lg font-bold text-gray-500 mb-2">หัวข้อหลักๆ</p>
