@@ -129,7 +129,7 @@ const ReduxjsReactHooks = (props) => {
                     <ListCardV2 cardurlpic={`https://robohash.org/3`} cardfullname={`ทดสอบ สาม`} cardrank={`Programmer`} />
                     <ListCardV2 cardurlpic={`https://robohash.org/8`} cardfullname={`ทดสอบ สี่`} cardrank={`Programmer`} />
                   </div>
-                </div>
+                </div> 
               </div>
               
               <p className="text-gray-500 mb-2">จากตัวอย่างด้านบนเป็นการแสดงรายชื่อพนักงานเป็นรูปแบบ Card หลายๆใบ</p>
