@@ -35,12 +35,12 @@ const ExpCardV2 = (props) => {
       </div>
 
       <div className={`pb-2 pl-6 ${arrlistlike.includes(props.cardfullname) && arrlistlike.length > 1 ? '' : 'hidden'}`}>
-        เพื่อนที่คุณอาจรู้จัก
+        <span className='text-green-600 underline'>เพื่อนที่คุณอาจรู้จัก</span>
         <div className='text-left items-left'>
           <ul className='items-left list-disc ml-8'>
             {
               arrlistlike.filter((str) => str != props.cardfullname && arrlistlike.includes(props.cardfullname)).map((str) => 
-                <li>{str}</li>
+                <li><span className='text-sky-500'>{str}</span></li>
               )
             }
           </ul>
